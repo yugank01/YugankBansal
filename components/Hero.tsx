@@ -18,7 +18,7 @@ const Hero = () => {
         />
         <Spotlight className="top-28 left-80 h-[80vh] w-[50vw]" fill="blue" />
 
-        <div className="h-screen w-full bg-black-100 bg-grid-white/[0.01] absolute top-0 left-0 flex items-center justify-center">
+        <div className="h-screen w-full bg-black-100 bg-grid-white/[0.02] absolute top-0 left-0 flex items-center justify-center">
           {/* Radial gradient for the container to give a faded look */}
           <div
             // change the bg to bg-black-100, so it matches the bg color and will blend in
