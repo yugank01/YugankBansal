@@ -2,6 +2,7 @@ import React from "react";
 import ItemLayout from "./ItemLayout";
 import Link from "next/link";
 import Image from "next/image";
+import { AnimatedTooltipPreview } from "./AnimatedTooltipPreview";
 
 const GithubProfileDetails = () => {
   return (
@@ -10,7 +11,7 @@ const GithubProfileDetails = () => {
         <ItemLayout
           className={" col-span-full md:col-span-8 flex-col items-start"}
         >
-          <h2 className="text-[#FEFE5B] font-bold text-xl md:text-2xl text-left w-full capitalize">
+          <h2 className="text-[#ac77fa] font-bold text-xl md:text-2xl text-left w-full capitalize">
             Architect of Enchantment
           </h2>
           <p className="font-light text-white text-xs sm:text-sm md:text-base">
@@ -28,7 +29,7 @@ const GithubProfileDetails = () => {
 
         <ItemLayout className={"col-span-full md:col-span-4 !p-0"}>
           <img
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/top-langs/?username=yugank01&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
+            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/top-langs/?username=yugank01&theme=transparent&hide_border=true&title_color=AC77FA&text_color=FFFFFF&icon_color=AC77FA&text_bold=false`}
             loading="lazy"
             className="w-full h-auto"
             alt="My Top used Languages"
@@ -36,19 +37,12 @@ const GithubProfileDetails = () => {
         </ItemLayout>
 
         <ItemLayout className={"col-span-full"}>
-          <Image
-            src="https://skillicons.dev/icons?i=nextjs,react,redux,mongodb,nodejs,tailwind,git,github,vercel,html,css,js,jquery,mysql,bootstrap,figma,aws,babel,ipfs,linux,netlify,npm,replit,sass,threejs,vite,vscode,yarn"
-            height="500"
-            width="500"
-            loading="lazy"
-            className="w-full h-auto"
-            alt="My Skills"
-          />
+          <AnimatedTooltipPreview />
         </ItemLayout>
 
         <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
           <Image
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STREAK_STATS_URL}?user=yugank01&theme=dark&hide_border=true&type=svg&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B`}
+            src={`${process.env.NEXT_PUBLIC_GITHUB_STREAK_STATS_URL}?user=yugank01&theme=dark&hide_border=true&type=svg&background=EB545400&ring=AC77FA&currStreakLabel=AC77FA`}
             height="500"
             width="500"
             loading="lazy"
@@ -59,7 +53,7 @@ const GithubProfileDetails = () => {
 
         <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
           <img
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api?username=yugank01&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
+            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api?username=yugank01&theme=transparent&hide_border=true&title_color=AC77FA&text_color=FFFFFF&icon_color=AC77FA&text_bold=false`}
             loading="lazy"
             className="w-full h-auto"
             alt="My Github Stats"
