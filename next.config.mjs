@@ -10,7 +10,8 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "github-readme-stats.vercel.app",
+        // hostname: "github-readme-stats.vercel.app",
+        hostname: "github-readme-stats-yugank01s-projects.vercel.app",
         port: "",
         pathname: "/**",
       },
