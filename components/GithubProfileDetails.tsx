@@ -27,10 +27,8 @@ const GithubProfileDetails = () => {
         </ItemLayout>
 
         <ItemLayout className={"col-span-full md:col-span-4 !p-0"}>
-          <Image
+          <img
             src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/top-langs/?username=yugank01&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
-            height="500"
-            width="500"
             loading="lazy"
             className="w-full h-auto"
             alt="My Top used Languages"
@@ -60,10 +58,8 @@ const GithubProfileDetails = () => {
         </ItemLayout>
 
         <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
-          <Image
+          <img
             src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api?username=yugank01&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
-            height="500"
-            width="500"
             loading="lazy"
             className="w-full h-auto"
             alt="My Github Stats"
