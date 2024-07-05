@@ -11,7 +11,7 @@ const GithubProfileDetails = () => {
         <ItemLayout
           className={" col-span-full md:col-span-8 flex-col items-start"}
         >
-          <h2 className="text-[#ac77fa] font-bold text-xl md:text-2xl text-left w-full capitalize">
+          <h2 className="text-[#AC77FA] font-bold text-xl md:text-2xl text-left w-full capitalize">
             Architect of Enchantment
           </h2>
           <p className="font-light text-white text-xs sm:text-sm md:text-base">
@@ -42,7 +42,7 @@ const GithubProfileDetails = () => {
 
         <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
           <Image
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STREAK_STATS_URL}?user=yugank01&theme=dark&hide_border=true&type=svg&background=EB545400&ring=AC77FA&currStreakLabel=AC77FA`}
+            src={`${process.env.NEXT_PUBLIC_GITHUB_STREAK_STATS_URL}?user=yugank01&fire=A41BFF&theme=dark&hide_border=true&type=svg&background=EB545400&ring=AC77FA&currStreakLabel=AC77FA`}
             height="500"
             width="500"
             loading="lazy"
