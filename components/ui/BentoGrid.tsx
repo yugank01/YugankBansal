@@ -1,10 +1,11 @@
 "use client";
+import { motion } from "framer-motion";
+import { useEffect, useRef, useState } from "react";
 import { cn } from "@/utils/cn";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import { GlobeDemo } from "./GridGlobe";
 import { div } from "three/examples/jsm/nodes/Nodes.js";
 import Lottie from "react-lottie";
-import { useState } from "react";
 import animationData from "@/data/confetti.json";
 import { MagicButton } from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
@@ -16,6 +17,34 @@ export const BentoGrid = ({
   className?: string;
   children?: React.ReactNode;
 }) => {
+  // const ref = useRef(null);
+  // const [isInView, setIsInView] = useState(false);
+
+  // useEffect(() => {
+  //   const observer = new IntersectionObserver(
+  //     (entries) => {
+  //       entries.forEach((entry) => {
+  //         if (entry.isIntersecting) {
+  //           setIsInView(true);
+  //         } else {
+  //           setIsInView(false);
+  //         }
+  //       });
+  //     },
+  //     { threshold: 0.5 } // Adjust threshold as needed
+  //   );
+
+  //   if (ref.current) {
+  //     observer.observe(ref.current);
+  //   }
+
+  //   return () => {
+  //     if (ref.current) {
+  //       observer.unobserve(ref.current);
+  //     }
+  //   };
+  // }, []);
+
   return (
     <div
       className={cn(
@@ -25,6 +54,18 @@ export const BentoGrid = ({
     >
       {children}
     </div>
+    // <motion.div
+    //   ref={ref}
+    //   initial={{ scale: 0 }}
+    //   animate={isInView ? { scale: 1 } : { scale: 0 }}
+    //   transition={{ duration: 0.5 }}
+    //   className={cn(
+    //     "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-4 lg:gap-8 mx-auto",
+    //     className
+    //   )}
+    // >
+    //   {children}
+    // </motion.div>
   );
 };
 
