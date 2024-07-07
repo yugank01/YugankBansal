@@ -9,7 +9,7 @@ const GithubProfileDetails = () => {
     <section className="pb-20 w-full">
       <div className="grid grid-cols-12 gap-4 xs:gap-6  md:gap-8 w-full">
         <ItemLayout
-          className={" col-span-full md:col-span-8 flex-col items-start"}
+          className={" col-span-full md:col-span-8 flex-col items-start shadow-[0_8px_16px_rgb(0_0_0/0.4)]"}
         >
           <h2 className="text-[#AC77FA] font-bold text-xl md:text-2xl text-left w-full capitalize">
             Architect of Enchantment

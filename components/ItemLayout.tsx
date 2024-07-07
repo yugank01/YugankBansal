@@ -46,7 +46,7 @@ const ItemLayout = ({
       transition={{ duration: 0.5 }}
       // viewport={{ once: true }}
       className={clsx(
-        "bg-white bg-opacity-10 backdrop-blur-md shadow-lg border border-white border-opacity-30 p-6 sm:p-8 rounded-xl flex items-center justify-center space-y-8",
+        "bg-[#13162D] bg-opacity-75 backdrop-blur-md shadow-[0_8px_16px_rgb(0_0_0/0.4)] border border-white/[0.1] p-6 sm:p-8 rounded-xl flex items-center justify-center space-y-8",
         className
       )}
     >
