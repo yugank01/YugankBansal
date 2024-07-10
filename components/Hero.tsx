@@ -18,7 +18,7 @@ const Hero = () => {
         />
         <Spotlight className="top-28 left-80 h-[80vh] w-[50vw]" fill="blue" />
 
-        <div className="h-screen w-full bg-black-100 bg-grid-white/[0.02] absolute top-0 left-0 flex items-center justify-center">
+        <div className="h-screen w-full bg-black-100 bg-grid-white/[0.03] absolute top-0 left-0 flex items-center justify-center">
           {/* Radial gradient for the container to give a faded look */}
           <div
             // change the bg to bg-black-100, so it matches the bg color and will blend in
@@ -53,7 +53,10 @@ const Hero = () => {
                   position="right"
                 />
               </a>
-              <a href="https://drive.google.com/file/d/1QWrw6mWsjXYexiqGZcRMdLUWbZEy4WZn/view?usp=sharing" target="_blank">
+              <a
+                href="https://drive.google.com/file/d/1QWrw6mWsjXYexiqGZcRMdLUWbZEy4WZn/view?usp=sharing"
+                target="_blank"
+              >
                 <MagicButton
                   title="Download CV"
                   icon={<FaDownload />}
