@@ -315,8 +315,8 @@ export const workExperience = [
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "ECELL Media Head",
+    desc: "A consistent journey from a member of the society to Senior Co-ordinator of ECELL and lastly landing to the position of the Head of Media department.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
