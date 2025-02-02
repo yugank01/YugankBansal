@@ -46,7 +46,7 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-col md:flex-row gap-4">
-              <a href="#about">
+              <a href="https://github.com/yugank01" target="_blank">
                 <MagicButton
                   title="Show my Work"
                   icon={<FaLocationArrow />}
